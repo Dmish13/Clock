@@ -23,6 +23,14 @@ function DigitalClock(){
 
         return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${meridiem}`
     }
+    function formatDate(){
+        let month = time.getMonth();
+        let day = time.getDay();
+        let year = time.getYear();
+
+        return `${padZero(month)}/${padZero(day)}/${year}`;
+
+    }
 
     function padZero(number){
         return (number < 10 ? "0":"")+number;
@@ -31,6 +39,7 @@ function DigitalClock(){
     return(<div className="clock-container">
             <div className="clock">
                 <span>{formatTime()}</span>
+                <span>{formatDate()}</span>
             </div>
     </div>);
 }
