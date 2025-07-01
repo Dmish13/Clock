@@ -24,9 +24,9 @@ function DigitalClock(){
         return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${meridiem}`
     }
     function formatDate(){
-        let month = time.getMonth();
-        let day = time.getDay();
-        let year = time.getYear();
+        let month = time.getMonth()+1;
+        let day = time.getDate();
+        let year = time.getFullYear();
 
         return `${padZero(month)}/${padZero(day)}/${year}`;
 
