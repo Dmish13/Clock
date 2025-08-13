@@ -1,12 +1,9 @@
-# React + Vite
+# Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot 2025-07-01 191002](https://github.com/user-attachments/assets/7cb8327b-5ec1-4b25-99c5-ea107fda48da)
 
-Currently, two official plugins are available:
+Base code from Bro Code: https://youtu.be/CgkZ7MvWUAA?si=oqH99q4WNS4_fSL4&t=13448
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Modified by adding the current date and using a different background
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Website Link: https://dmish13.github.io/Clock/
