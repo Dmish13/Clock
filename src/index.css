@@ -22,3 +22,20 @@ body{
   text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.457);
   text-align: center;
 }
+
+@media (max-width: 600px){
+  .clock{
+    font-size: 4rem;
+  }
+  .clock-container{
+    padding: 5px 0;
+  }
+}
+@media (max-width: 400px){
+  .clock{
+    font-size: 3rem;
+  }
+  .clock-container{
+    padding: 2px 0;
+  }
+}
